@@ -103,7 +103,7 @@ def load_decoder_dcgan(config, device, dataset='C10'):
     from inversefed.genmodels.cifar10_dcgan.dcgan import Generator as DCGAN
 
     G = DCGAN(ngpu=1).eval()
-    G.load_state_dict(torch.load('inversefed/genmodels/cifar10_dcgan/checkpoint/netG_epoch_24.pth'))
+    G.load_state_dict(torch.load('inversefed/genmodels/cifar10_dcgan/netG_epoch_43.pth'))
     G.to(device)
 
     return G

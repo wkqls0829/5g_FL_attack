@@ -1,0 +1,1 @@
+python dcgan.py --dataset lfw --dataroot /hdd/hdd1/kjc/inversion --imageSize 32 --cuda --ngpu 1 --outf /hdd/hdd1/kjc/inversion/GIFD_Gradient_Inversion_Attack/inversefed/genmodels/cifar10_dcgan/checkpoint_scikit --ngf 32 --ndf 32
